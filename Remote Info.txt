@@ -1,0 +1,20 @@
+This version only works reliably with olderstyle Panosonic or REC-80 remotes, and a PC with pentium 200 Mhz or better. VB does not interface well with the hardware directly. I will admit that VC will do a better job at what I am doing with VB. I have used the Receive line as it is more stable and I have figured out how to read the signals. I began with using a 850 MHz Celeron machine, it captured  the IR signal well on the DCD line, however slower machines did not fair so well.
+
+ I first used Winlirc to decode the buttons of the remotes I am using, and compared them with a digital scope reading, and figured that the raw signal looked a lot similar to a signal being transmitted beteen 9600 and 14400 baud.
+
+The remotes I am using:
+
+Panosonic CA-RC60EX (YEFX9991526A) It is actually a car stereo remote.
+Nikko NIR 1050
+
+This was started as a bet to see which is better VB or C++, well most  of all the code has been my own and all other code added I have tweaked. I have done my best to reckognize the other programmers who wrote it, for those I have failed to mention thank you, there is no way I could have put my program together the way I have it now. If I have inspired somebody the way they have inspired me.
+
+
+I have included, an Excel form of the readings I took  off a 200 MHz digitizing Scope, you just have to make it into a bar graph, for the most part, it should match my screen shot signal, and remember the scope I used was extremely fast at capturing the signal. "It also catches glitches"
+
+if you find that this was ok enough or that I could do anything better, please let me know nop_loop@hotmail.com
+
+
+April 22, 2005
+
+Updated
